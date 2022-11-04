@@ -7,7 +7,7 @@
   <version>1.0-RELEASE</version>
   <name>amazon Maven Quickstart</name>
   <url>http://maven.apache.org</url>
-    
+    <?ignore
 	<distributionManagement>  
 		
 		<repository>
@@ -23,7 +23,7 @@
 		</snapshotRepository>	
 	
 	</distributionManagement>
-	
+	?>	
 	<repositories>
 		<repository>
 			<id>nexus</id>
@@ -32,11 +32,15 @@
 	</repositories>
 	
 	<dependencies>
+		<?ignore
 		<dependency>
 			<groupId>inc.javeed</groupId>
 			<artifactId>pwd-utils</artifactId>
 			<version>1.0</version>
 		</dependency>
+		?>
+		
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
