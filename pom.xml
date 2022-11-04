@@ -32,13 +32,12 @@
 	</repositories>
 	
 	<dependencies>
-		<?ignore
+		
 		<dependency>
 			<groupId>inc.javeed</groupId>
 			<artifactId>pwd-utils</artifactId>
 			<version>1.0</version>
 		</dependency>
-		?>
 		
 
 		<dependency>
